@@ -155,6 +155,7 @@ No known bugs at this time.
 
 ## Authors
 Elmahdi Mamoun - [Github](https://github.com/Elmahdi1962) / [Twitter](https://twitter.com/LmahdiX)
+Wuhibeselassie Tamire - [Github](https://github.com/wuhibe) / [Twitter](https://twitter.com/wuhibeselassie)
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
