@@ -43,7 +43,7 @@ button:hover {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    width: 200px;
+    width: 187.5px;
     height: 16px;
 }
 .locations {
@@ -55,7 +55,7 @@ button:hover {
     height: 100%;
     width: 25%;
 }
-.amenities input{
+.filters input{
     margin-right: 10px;
 }
 
