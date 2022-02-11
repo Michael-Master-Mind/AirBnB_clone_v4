@@ -48,7 +48,7 @@ function getPlaces (data = {}) {
     url: 'http://0.0.0.0:5001/api/v1/places_search/',
     type: 'POST',
     data: JSON.stringify(data),
-    ContentType: 'application/json',
+    contentType: 'application/json',
     dataType: 'json',
     success: function (data, status) {
       if (status === 'success') {

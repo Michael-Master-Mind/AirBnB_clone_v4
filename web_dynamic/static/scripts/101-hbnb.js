@@ -4,7 +4,7 @@ const selectedCities = {};
 
 $(document).ready(function () {
   /* check api status */
-  $.get('http://localhost:5001/api/v1/status', function (res, status) {
+  $.get('http://0.0.0.0:5001/api/v1/status', function (res, status) {
     if (status === 'success') {
       if (res.status === 'OK') {
         $('div#api_status').addClass('available');
@@ -141,7 +141,7 @@ async function getReviews (placeId) {
   const reviews = [];
 
   await $.ajax({
-    url: 'http://localhost:5001/api/v1/users',
+    url: 'http://0.0.0.0:5001/api/v1/users',
     type: 'GET',
     dataType: 'json',
     success: function (data, status) {
@@ -154,7 +154,7 @@ async function getReviews (placeId) {
   });
 
   await $.ajax({
-    url: `http://localhost:5001/api/v1/places/${placeId}/reviews`,
+    url: `http://0.0.0.0:5001/api/v1/places/${placeId}/reviews`,
     type: 'GET',
     dataType: 'json',
     success: function (data, status) {
@@ -180,10 +180,10 @@ function getPlaces (dataa = {}) {
   /* render places */
   return new Promise(function (resolve, reject, data = dataa) {
     $.ajax({
-      url: 'http://localhost:5001/api/v1/places_search/',
+      url: 'http://0.0.0.0:5001/api/v1/places_search/',
       type: 'POST',
       data: JSON.stringify(data),
-      ContentType: 'application/json',
+      contentType: 'application/json',
       dataType: 'json',
       error: function (err) {
         reject(err);
